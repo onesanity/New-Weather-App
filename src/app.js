@@ -37,6 +37,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "e87dcc8ca05ed4bca8a5c243ea815556";
-let apiUrl =`https://api.openweathermap.org/data/2.5/weather?q=San Diego&appid=${apiKey}&units=metric`;
+let city = "Bentonville";
+let apiUrl =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
