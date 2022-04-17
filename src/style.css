@@ -75,4 +75,19 @@ a:link {
 }
 
 
+.weather-forecast-date {
+  font-size: 16px;
+  color: rgb(33, 33, 33);
+  opacity: 0.5;
+}
+
+.weather-forecast {
+  margin-top: 10px;
+  text-align: center;
+  font-size:  14px;
+}
+
+.weather-forecast-temp-min {
+  opacity: 0.5
+}
 
